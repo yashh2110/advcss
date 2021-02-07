@@ -7,6 +7,7 @@
 body {
   background-color: rgba(0, 0, 0, 0.9);
   cursor: none;
+  overflow-x: hidden;
 }
 body::before {
   content: "";
@@ -27,7 +28,8 @@ body::before {
   position: absolute;
   width: 250px;
   height: 250px;
-  transform: translate(430%, 100%);
+  right: 20px;
+  bottom: 50px;
   background: linear-gradient(
     90deg,
     rgba(99, 99, 212, 0.822),
