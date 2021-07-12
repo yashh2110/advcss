@@ -16,7 +16,7 @@ h1 {
   color: rgb(255, 255, 255);
   white-space: nowrap;
   transform: translateX(-50%) translateY(-50%);
-  animation: anim 6s step(8) infinite ease-out;
+  animation: anim 6s infinite ease-out;
   overflow: hidden;
 }
 @keyframes anim {
